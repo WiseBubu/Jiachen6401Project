@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://www.gstatic.com/charts/loader.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DATS6401 Jiachen Li</title>
+</head>
+<body>
+    
+<div class='hero'>
+    <div class='nav-bar'>
+        <div class='nav-logo'>
+            <img src="css/logo.png">
+        </div>
+        <div class='nav-links'>
+            <ul>
+                <a href='index.html'><li>HOME</li></a>
+                <a href='overview.html'><li>OVERVIEW</li></a>
+                <a href='healthcare.html'><li>HEALTHCARE</li></a>
+                <a href='military.html'><li>MILITARY</li></a>
+                <a href='education.html'><li>EDUCATION</li></a>
+                <a href='summary.html'><li>SUMMARY</li></a>
+ 
+            </ul>
+            <a href="https://data.worldbank.org/"><button type='button' class='btn'>DATA SOURCE</button></a>    
+        </div>
+    </div> <!--navigation-->
+
+    <div class='graph'>
+        <script src='js/education.js'></script>
+            <h1>Total Education Spendings in 2013-2018</h1>
+            <div id="Neweducation_div"> </div>
+            <p>         
+                United States spent most amount of money in education from 2013-2018 among all countries. 
+                Within six year, the education expenditure went up more an 100 billion dollars in the United
+                States.
+            </p>
+           <br><br><br>
+
+            <h2>Education vs GDP (Per Capita) in 2013-2018</h2>
+            <div id="EduGDPPerCapita_div"> </div>
+            <p>
+               Australia had highest education and GDP per capita in 2013, then these two values dramatically dropped to $1692
+               in 2018. For the rest of countries, we can see that the education per capita grows when GDP 
+               per capita grows. Thses two values are correalted to each other positively for the most of 
+               countries here. In above graph, the size of circle means the population of the country.
+            </p>
+            <br><br>
+            
+            <h3>Fastest Growing Country in Educational Expenditure</h3>
+            <div id="Edu_growth_div"></div> 
+             <p>
+                 India, China, South Korea and the United States spent more money in educational since 2013. 
+                 Compared to China' growing amount 78 billion dollars, India only spent 26 more billion 
+                 dollars more. But India has the highest grow rate than the rest of countries, which is 
+                 46%. 
+             </p>   
+    </div><!--graphs-->
+        
+   
+           
+    </div> 
+ 
+</body>
+</html>

@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+html{
+    height:100%
+}
+
+body{
+    min-height: 100%;
+}
+
+.hero{
+    height:100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)), url(data.jpg);
+    background-position:100%;
+    background-size:cover;
+    overflow-x: hidden;
+    position:relative;
+   
+   
+}
+
+.nav-bar{
+    display:flex;
+    padding: 40px 120px;
+}
+
+.nav-logo img{
+    width:135px;
+}
+
+
+.nav-links{
+    flex:1;
+}
+.nav-links ul{
+    margin-left:50px;
+    display: inline;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 25px;
+}
+
+.nav-links ul a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li:after{
+    content:'';
+    width: 0;
+    height: 2px;
+    background-color:goldenrod;
+    display: block;
+    margin:auto;
+}
+
+.nav-links ul li:hover:after{
+    width:100%;
+
+}
+
+.btn{
+    padding:10px 20px;
+    background-color: goldenrod ;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: 0.8s;
+}
+
+.btn:hover{
+    color:#fff;
+}
+
+
+.nav-links .btn{
+    float: right;
+}
+
+
+.graph {
+    width: 65%;
+    float: right;
+    margin-top: 10px;
+    
+} 
+
+
+.graph p {
+    font:  sans-serif;
+    font-size: large;
+    color:goldenrod;
+    text-align:center;
+    word-wrap: break-word;
+    width:45%;
+    padding: 20px 40px 20px 20px;
+    position: relative;
+  
+}
+
+.graph h1,h2,h3,h4,h5{
+    font-size: x-large;
+    color:goldenrod;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-size:xx-large;
+    color:goldenrod;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top:100px;
+    padding: 30px;
+
+   
+}
+
+
+li{
+    color:white;
+    font-size: large;
+    text-align: justify;
+    padding: 10px 40px 0px 530px;
+    list-style: none;
+    
+}
+
+li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+
+li::before{
+    content:'\269D';
+    color:goldenrod;
+    margin-right: 20px;
+}
+
+
+
+p {
+    color:goldenrod;
+    font-family:sans-serif;
+    font-size: medium;
+    font-weight:bold;
+    text-align: center;
+}
+
